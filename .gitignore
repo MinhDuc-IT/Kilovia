@@ -1,0 +1,37 @@
+# ---------------------------
+# FRONTEND (React + Vite)
+# ---------------------------
+kilovia_frontend/node_modules/
+kilovia_frontend/dist/
+kilovia_frontend/build/
+kilovia_frontend/.env
+kilovia_frontend/.env.local
+kilovia_frontend/.env.*.local
+
+# ---------------------------
+# BACKEND (Spring Boot)
+# ---------------------------
+kilovia_backend/target/
+kilovia_backend/.idea/
+kilovia_backend/.project
+kilovia_backend/.classpath
+kilovia_backend/.settings/
+kilovia_backend/*.iml
+
+# Secrets (không commit file cấu hình nhạy cảm)
+kilovia_backend/src/main/resources/application-*.properties
+!kilovia_backend/src/main/resources/application.properties
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+*.tmp
+
+# ---------------------------
+# Editor & OS junk
+# ---------------------------
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
